@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   --main-color: #272727;
+  --main-bg-color: #fff;
 }
 
 *,
@@ -15,7 +16,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   color: var(--main-color);
-  background-color: #fff;
+  background-color: var(--main-bg-color);
 }
 
 img {
