@@ -1,7 +1,7 @@
 
 .navigation__list {
   display: flex;
-  gap: 60px;
+  gap: 30px;
 }
 
 .navigation__item {
@@ -16,6 +16,18 @@
 
 .navigation__control {
   display: none;
+}
+
+.navigation__link {
+  outline: none;
+  padding: 15px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom-color .24s ease;
+}
+
+.navigation__link:active,
+.navigation__link:focus{
+  border-bottom-color: var(--main-color);
 }
 
 @media (max-width: 1000px) {
