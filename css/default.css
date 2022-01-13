@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   --main-color: #272727;
   --main-bg-color: #fff;
+  --heart-color: #D93162;
 }
 
 *,
@@ -52,6 +53,10 @@ h1, h2, h3, p {
   max-width: 1240px;
   margin: 0 auto;
   padding: 0 30px;
+}
+
+.hidden {
+  display: none;
 }
 
 @media (max-width: 1200px) {
