@@ -34,6 +34,7 @@
   .navigation {
     position: relative;
     padding: 0 10px;
+    z-index: 2;
   }
 
   .navigation__btn {
@@ -79,6 +80,12 @@
   .navigation_active .navigation__list{
     height: auto;
     padding-bottom: 13px;
+  }
+
+  .navigation__link {
+    outline: none;
+    padding: 0;
+    border: none;
   }
 }
 
