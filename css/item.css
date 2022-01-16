@@ -20,6 +20,10 @@
   transition: color .4s ease, opacity .4s ease;
 }
 
+.item__favorite-btn.active {
+  color: var(--heart-color);
+}
+
 .item__favorite-btn:hover {
   color: var(--heart-color);
   opacity: .5;
@@ -45,34 +49,6 @@
   line-height: 22px;
 }
 
-.item__to-cart {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-  background-color: var(--main-color);
-  color: var(--main-bg-color);
-  padding: 8px;
-  border: 1px solid var(--main-color);
-  transition-property: background-color, color, background-color;
-  transition-duration: 0.24s;
-  transition-timing-function: ease;
-}
-
-.item__to-cart:hover {
-  background-color: #464343;
-  color: var(--main-bg-color);
-  border-color: #464343;
-}
-
-.item__to-cart:focus {
-  background-color: #F5F5F5;
-  color: var(--main-color);
-}
-
-.item__to-cart:active {
-  background-color: var(--main-bg-color);
-  color: var(--main-color);
-}
 
 
 
