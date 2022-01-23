@@ -1,0 +1,31 @@
+{
+  "name": "secondhand",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maksim-Methed/secondHand.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maksim-Methed/secondHand/issues"
+  },
+  "homepage": "https://github.com/Maksim-Methed/secondHand#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cssimport": "^7.0.0",
+    "gulp-image": "^6.3.1",
+    "webpack": "^5.67.0",
+    "webpack-stream": "^7.0.0"
+  }
+}
